@@ -28,376 +28,369 @@
 
         Tip 2: you can also add an image using data-image tag
     -->
-            <div class="logo">
-                <a href="#" class="simple-text">
-                    SOLICITAÇÕES
+    <div class="logo">
+        <a href="#" class="simple-text">
+            SOLICITAÇÕES
+        </a>
+    </div>
+    <div class="sidebar-wrapper">
+        <ul class="nav">
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="material-icons">dashboard</i>
+                    <p>Home</p>
                 </a>
+            </li>
+            <li>
+                <a href="./user.html">
+                    <i class="material-icons">person</i>
+                    <p>Solicitações</p>
+                </a>
+            </li>
+            <li>
+                <a href="./table.html">
+                    <i class="material-icons">content_paste</i>
+                    <p>Materiais</p>
+                </a>
+            </li>
+            <li>
+                <a href="./relatorio.html">
+                    <i class="material-icons">library_books</i>
+                    <p>Relátorios</p>
+                </a>
+            </li>
+            <li>
+                <a href="./maps.html">
+                    <i class="material-icons">info_outline</i>
+                    <p>Sobre</p>
+                </a>
+            </li>
+            <li>
+                <a href="./notifications.html">
+                    <i class="material-icons">lock_outline</i>
+                    <p>Sair</p>
+                </a>
+            </li>
+            <li class="card-header" role="tab" id="headingTwo">
+
+                <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Cadastro
+                    <i class="material-icons">keyboard_arrow_down</i>
+                </a>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <br>
+                    <a id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                        Cadastro
+                    </a>
+                </div>
+            </li>   
+        </ul>
+    </div>
+</div>
+<div class="main-panel">
+    <nav class="navbar navbar-transparent navbar-absolute">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"> Material Dashboard </a>
             </div>
-            <div class="sidebar-wrapper">
-                <ul class="nav">
-                    <li class="active">
-                        <a href="dashboard.html">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="material-icons">dashboard</i>
-                            <p>Home</p>
+                            <p class="hidden-lg hidden-md">Dashboard</p>
                         </a>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="material-icons">notifications</i>
+                            <span class="notification">5</span>
+                            <p class="hidden-lg hidden-md">Notifications</p>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Lemos Leonardo enviou uma solicitação</a>
+                            </li>
+                            <li>
+                                <a href="#">Marcio Arruda enviou uma solicitção</a>
+                            </li>
+                            <li>
+                                <a href="#">Há Solicitações Pendentes</a>
+                            </li>
+                            <li>
+                                <a href="#">Another Notification</a>
+                            </li>
+                            <li>
+                                <a href="#">Another One</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li>
-                        <a href="./user.html">
+                        <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="material-icons">person</i>
-                            <p>Solicitações</p>
+                            <p class="hidden-lg hidden-md">Profile</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="./table.html">
-                            <i class="material-icons">content_paste</i>
-                            <p>Materiais</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./relatorio.html">
-                            <i class="material-icons">library_books</i>
-                            <p>Relátorios</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./maps.html">
-                            <i class="material-icons">info_outline</i>
-                            <p>Sobre</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./notifications.html">
-                            <i class="material-icons">lock_outline</i>
-                            <p>Sair</p>
-                        </a>
-                    </li>
-                    <li class="card-header" role="tab" id="headingTwo">
-                    
-                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Cadastro
-                            <i class="material-icons">keyboard_arrow_down</i>
-                        </a>
-                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <br>
-                            <a id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                                Cadastro
-                            </a>
-                        </div>
-                    </li>   
                 </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group  is-empty">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="material-input"></span>
+                    </div>
+                    <button type="submit" class="btn btn-white btn-round btn-just-icon">
+                        <i class="material-icons">search</i>
+                        <div class="ripple-container"></div>
+                    </button>
+                </form>
             </div>
         </div>
-        <div class="main-panel">
-            <nav class="navbar navbar-transparent navbar-absolute">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#"> Material Dashboard </a>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">dashboard</i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">notifications</i>
-                                    <span class="notification">5</span>
-                                    <p class="hidden-lg hidden-md">Notifications</p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">Lemos Leonardo enviou uma solicitação</a>
+    </nav>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row" align="center">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card card-nav-tabs text-center">
+                        <div class="card-header" data-background-color="blue">
+                            <h4 class="title">Materiais Provisórios</h4>
+                        </div>
+                        <div class="card-content table-responsive text-center">
+                            <table class="table">
+                                <thead class="text-primary">
+                                    <th class="text-center">Código</th>
+                                    <th class="text-center">Solicitante</th>
+                                    <th class="text-center">Produto</th>
+                                    <th class="text-center">Quantidade</th>
+                                    <th class="text-center">Local</th>
+                                    <th class="text-center">Status</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Gabrielle Limach</td>
+                                        <td>Folha Sulfite</td>
+                                        <td>01</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>456</td>
+                                        <td>Lemos Leonardo</td>
+                                        <td>Canetas</td>
+                                        <td>01</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>789</td>
+                                        <td>Marcio Arruda</td>
+                                        <td>Cabos de Rede</td>
+                                        <td>04</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Gabrielle Limach</td>
+                                        <td>Folha Sulfite</td>
+                                        <td>01</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>456</td>
+                                        <td>Lemos Leonardo</td>
+                                        <td>Canetas</td>
+                                        <td>01</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>789</td>
+                                        <td>Marcio Arruda</td>
+                                        <td>Cabos de Rede</td>
+                                        <td>04</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>    
+                        <div class="bd-example" data-example-id="">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Marcio Arruda enviou uma solicitção</a>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Há Solicitações Pendentes</a>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Another Notification</a>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Another One</a>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li>
-                                <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">person</i>
-                                    <p class="hidden-lg hidden-md">Profile</p>
-                                </a>
-                            </li>
-                        </ul>
-                        <form class="navbar-form navbar-right" role="search">
-                            <div class="form-group  is-empty">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <span class="material-input"></span>
-                            </div>
-                            <button type="submit" class="btn btn-white btn-round btn-just-icon">
-                                <i class="material-icons">search</i>
-                                <div class="ripple-container"></div>
-                            </button>
-                        </form>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-            </nav>
-              <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="card card-nav-tabs">
-                                <div class="card-header" data-background-color="blue">
-                                    <h4 class="title">Materiais Provisórios</h4>
-                                </div>
-                                <div class="card-content table-responsive text-center">
-                                    <table class="table">
-                                        <thead class="text-primary">
-                                            <th class="text-center">Código</th>
-                                            <th class="text-center">Solicitante</th>
-                                            <th class="text-center">Produto</th>
-                                            <th class="text-center">Quantidade</th>
-                                            <th class="text-center">Tombo</th>
-                                            <th class="text-center">Local</th>
-                                            <th class="text-center">Status</th>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>123</td>
-                                                <td>Gabrielle Limach</td>
-                                                <td>Folha Sulfite</td>
-                                                <td>01</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>456</td>
-                                                <td>Lemos Leonardo</td>
-                                                <td>Canetas</td>
-                                                <td>01</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>789</td>
-                                                <td>Marcio Arruda</td>
-                                                <td>Cabos de Rede</td>
-                                                <td>04</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                           <tr>
-                                                <td>123</td>
-                                                <td>Gabrielle Limach</td>
-                                                <td>Folha Sulfite</td>
-                                                <td>01</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>456</td>
-                                                <td>Lemos Leonardo</td>
-                                                <td>Canetas</td>
-                                                <td>01</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>789</td>
-                                                <td>Marcio Arruda</td>
-                                                <td>Cabos de Rede</td>
-                                                <td>04</td>
-                                                <td></td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>    
-                                <div class="bd-example" data-example-id="">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-center">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">1</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">2</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">3</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">Next</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="card">
+                        <div class="card-header text-center" data-background-color="blue">
+                            <h4 class="title">Materiais Permanentes</h4>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card">
-                                <div class="card-header text-center" data-background-color="blue">
-                                    <h4 class="title">Materiais Permanentes</h4>
-                                </div>
-                                <div class="card-content table-responsive text-center">
-                                    <table class="table">
-                                        <thead class="text-primary">
-                                            <th class="text-center">Código</th>
-                                            <th class="text-center">Solicitante</th>
-                                            <th class="text-center">Produto</th>
-                                            <th class="text-center">Quantidade</th>
-                                            <th class="text-center">Tombo</th>
-                                            <th class="text-center">Local</th>
-                                            <th class="text-center">Status</th>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>123</td>
-                                                <td>Gabrielle Limach</td>
-                                                <td>Mesa</td>
-                                                <td>01</td>
-                                                <td>987-A0258</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger text-center">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>456</td>
-                                                <td>Lemos Leonardo</td>
-                                                <td>Cadeira</td>
-                                                <td>01</td>
-                                                <td>987-B8759</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>789</td>
-                                                <td>Marcio Arruda</td>
-                                                <td>Computador</td>
-                                                <td>04</td>
-                                                <td>125-C5824</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                           <tr>
-                                                <td>123</td>
-                                                <td>Gabrielle Limach</td>
-                                                <td>Mesa</td>
-                                                <td>01</td>
-                                                <td>987-A0258</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>456</td>
-                                                <td>Lemos Leonardo</td>
-                                                <td>Cadeira</td>
-                                                <td>01</td>
-                                                <td>987-B8759</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>789</td>
-                                                <td>Marcio Arruda</td>
-                                                <td>Computador</td>
-                                                <td>04</td>
-                                                <td>125-C5824</td>
-                                                <td>CDES</td>
-                                                <td class="text-danger">Aguardando Aprovação
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="bd-example justify-content-end">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-end">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">1</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">2</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">3</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">Next</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
+                        <div class="card-content table-responsive text-center">
+                            <table class="table">
+                                <thead class="text-primary">
+                                    <th class="text-center">Código</th>
+                                    <th class="text-center">Solicitante</th>
+                                    <th class="text-center">Produto</th>
+                                    <th class="text-center">Quantidade</th>
+                                    <th class="text-center">Tombo</th>
+                                    <th class="text-center">Local</th>
+                                    <th class="text-center">Status</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Gabrielle Limach</td>
+                                        <td>Mesa</td>
+                                        <td>01</td>
+                                        <td>987-A0258</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger text-center">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>456</td>
+                                        <td>Lemos Leonardo</td>
+                                        <td>Cadeira</td>
+                                        <td>01</td>
+                                        <td>987-B8759</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>789</td>
+                                        <td>Marcio Arruda</td>
+                                        <td>Computador</td>
+                                        <td>04</td>
+                                        <td>125-C5824</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>123</td>
+                                        <td>Gabrielle Limach</td>
+                                        <td>Mesa</td>
+                                        <td>01</td>
+                                        <td>987-A0258</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>456</td>
+                                        <td>Lemos Leonardo</td>
+                                        <td>Cadeira</td>
+                                        <td>01</td>
+                                        <td>987-B8759</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>789</td>
+                                        <td>Marcio Arruda</td>
+                                        <td>Computador</td>
+                                        <td>04</td>
+                                        <td>125-C5824</td>
+                                        <td>CDES</td>
+                                        <td class="text-danger">Aguardando Aprovação
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bd-example justify-content-center">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-end">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
-            <footer class="footer">
-                <div class="container-fluid">
-                    <nav class="pull-left">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    solicitações
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Relatórios
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Sobre
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Sair
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </footer>
         </div>
-    </div>
+    </div>      
+    <footer class="footer">
+        <div class="container-fluid">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            solicitações
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Relatórios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Sair
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</div>
+</div>
 </body>
 <!--   Core JS Files   -->
 <script src="../assets/js/jquery-3.2.1.min.js" type="text/javascript"></script>
