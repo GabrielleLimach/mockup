@@ -195,19 +195,19 @@
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="form-group label-floating has-success">
-                                                    <label class="control-label">Tipo</label>
-                                                    <output class="form-control">Provisório</output>
+                                                    <label class="control-label">Mesa</label>
+                                                    <output class="form-control">B54-1245</output>
                                                     <span class="form-control-feedback">
                                                         <i class="material-icons">done</i>
                                                     </span>
                                                 </div>
-                                            </div>
+                                            </div> 
                                             <div class="col-md-2">
                                                 <div class="form-group label-floating form-group label-floating has-success">
                                                     <div align="justify">
                                                         <label class="control-label">Quantidade</label>
                                                         <output class="form-control" style="padding-bottom: 0px; padding-top: 0px";>
-                                                            <button class="btn-link">
+                                                            <button class="btn-link" style="border-left-width:0px";>
                                                                 <i class="material-icons">remove</i>
                                                             </button>
                                                                 01
@@ -229,46 +229,6 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <table class="table table-hover">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>Folha Sulfite</td>
-                                                            <td>Provisório</td>
-                                                            <td></td>
-                                                            <td>01</td>
-                                                            <td>Pacote</td>
-                                                            <td class="td-actions text-right">
-                                                                <button type="button" rel="tooltip" class="btn btn-success btn-round">
-                                                                    <i class="material-icons">edit</i>
-                                                                </button>
-                                                                <span style="padding-left:10px"></span>
-                                                                <button type="button" rel="tooltip" class="btn btn-danger btn-round">
-                                                                    <i class="material-icons">close</i>
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Mesa</td>
-                                                            <td>Permanente</td>
-                                                            <td>B54-1245</td>
-                                                            <td>01</td>
-                                                            <td>Unidade</td>
-                                                            <td class="td-actions text-right">
-                                                                <button type="button" rel="tooltip" class="btn btn-success btn-round">
-                                                                    <i class="material-icons">edit</i>
-                                                                </button>
-                                                                <span style="padding-left:10px"></span>
-                                                                <button type="button" rel="tooltip" class="btn btn-danger btn-round">
-                                                                    <i class="material-icons">close</i>
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-12">
                                                 <div class="form-group">
                                                     <div class="form-group label-floating has-success">
                                                         <label class="control-label">Descrição</label>
@@ -284,6 +244,7 @@
                                             </div>
                                         </div>
                                         <button type="submit" class="btn btn-success pull-right">Aprovar Solicitação</button>
+                                        <button type="button" class="btn btn-secondary">Cancelar Solicitação</button>
                                         <div class="clearfix"></div>
                                     </form>
                                 </div>
@@ -308,6 +269,62 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header" data-background-color="purple">
+                        <h4 class="title">Lista de Produtos</h4>
+                    </div>
+                    <div class="card-content table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <th>Código</th>
+                                <th>Produto</th>
+                                <th>Tipo</th>
+                                <th>Tombo</th>
+                                <th>Quantidade</th>
+                                <th></th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>123</td>
+                                    <td>Folha Sulfite</td>
+                                    <td>Provisório</td>
+                                    <td></td>
+                                    <td>01 PCT</td>
+                                    <td></td>
+                                    <td class="td-actions text-right">
+                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
+                                            <i class="material-icons">edit</i>
+                                        </button>
+                                        <span style="padding-left:10px"></span>
+                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
+                                            <i class="material-icons">close</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>465</td>
+                                    <td>Mesa</td>
+                                    <td>Permanente</td>
+                                    <td>B54-1245</td>
+                                    <td>01 UN</td>
+                                    <td></td>
+                                    <td class="td-actions text-right">
+                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
+                                            <i class="material-icons">edit</i>
+                                        </button>
+                                        <span style="padding-left:10px"></span>
+                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
+                                            <i class="material-icons">close</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
