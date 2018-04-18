@@ -30,45 +30,45 @@
     -->
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    Materiais
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                    <li>
+                    <li class="active">
                         <a href="dashboard.html">
                             <i class="material-icons">dashboard</i>
-                            <p>Dashboard</p>
+                            <p>Home</p>
                         </a>
                     </li>
                     <li>
                         <a href="./user.html">
                             <i class="material-icons">person</i>
-                            <p>User Profile</p>
+                            <p>Solicitações</p>
                         </a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="./table.html">
                             <i class="material-icons">content_paste</i>
-                            <p>Table List</p>
+                            <p>Materiais</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./typography.html">
+                        <a href="./relatorio.html">
                             <i class="material-icons">library_books</i>
-                            <p>Typography</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./icons.html">
-                            <i class="material-icons">bubble_chart</i>
-                            <p>Icons</p>
+                            <p>Relátorios</p>
                         </a>
                     </li>
                     <li>
                         <a href="./maps.html">
-                            <i class="material-icons">location_on</i>
-                            <p>Maps</p>
+                            <i class="material-icons">info_outline</i>
+                            <p>Sobre</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./notifications.html">
+                            <i class="material-icons">lock_outline</i>
+                            <p>Sair</p>
                         </a>
                     </li>
                     <li>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="content">
+            <div class="content text-center">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-8">
@@ -159,13 +159,14 @@
                                 <div class="card-header" data-background-color="purple">
                                     <h4 class="title">Materiais Provisórios</h4>
                                 </div>
-                                <div class="card-content table-responsive">
+                                <div class="card-content table-responsive text-center">
                                     <table class="table table-hover">
                                         <thead>
-                                            <th>Código</th>
-                                            <th>Produto</th>
-                                            <th>Tipo</th>
-                                            <th>Quantidade</th>
+                                            <th class="text-center">Código</th>
+                                            <th class="text-center">Produto</th>
+                                            <th class="text-center">Tipo</th>
+                                            <th class="text-center">Quantidade</th>
+                                            <th class="text-center">Situação</th>
                                             <th></th>
                                         </thead>
                                         <tbody>
@@ -174,7 +175,7 @@
                                                 <td>Folha Sulfite</td>
                                                 <td>Provisório</td>
                                                 <td>01 PCT</td>
-                                                <td></td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -186,7 +187,7 @@
                                                 <td>Copo Plástico</td>
                                                 <td>Provisório</td>
                                                 <td>01 CX</td>
-                                                <td></td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -199,7 +200,7 @@
                                                 <td>Folha Sulfite</td>
                                                 <td>Provisório</td>
                                                 <td>01 PCT</td>
-                                                <td></td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -211,7 +212,7 @@
                                                 <td>Copo Plástico</td>
                                                 <td>Provisório</td>
                                                 <td>01 CX</td>
-                                                <td></td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -223,7 +224,7 @@
                                                 <td>Folha Sulfite</td>
                                                 <td>Provisório</td>
                                                 <td>01 PCT</td>
-                                                <td></td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -235,7 +236,7 @@
                                                 <td>Copo Plástico</td>
                                                 <td>Provisório</td>
                                                 <td>01 CX</td>
-                                                <td></td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -247,7 +248,7 @@
                                                 <td>Folha Sulfite</td>
                                                 <td>Provisório</td>
                                                 <td>01 PCT</td>
-                                                <td></td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
                                                         <i class="material-icons">edit</i>
@@ -258,15 +259,15 @@
                                                 <td>456</td>
                                                 <td>Copo Plástico</td>
                                                 <td>Provisório</td>
-                                                <td>01 CX</td>
-                                                <td></td>
+                                                <td>05 CX</td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round" data-toggle="modal" data-target="#exampleModal">
                                                         <i class="material-icons">edit</i>
                                                     </button>
                                                     <!-- Button trigger modal -->
                                                     <!-- Modal -->
-                                                    <div align="center" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                                                    <div align="center" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="exampleModal">
                                                         <div class="modal-dialog">
                                                             <div class="modal-content">
                                                                 <div class="col-md-12">
@@ -280,55 +281,41 @@
                                                                                     <div class="col-md-6">
                                                                                         <div class="form-group label-floating has-success">
                                                                                             <label class="control-label">Produto</label>
-                                                                                            <output class="form-control">Folha Sulfite</output>
+                                                                                            <output class="form-control">Copo Plástico</output>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="form-group col-md-3">
-                                                                                        <label for="inputState">Tipo</label>
-                                                                                        <select id="inputState" class="form-control">
-                                                                                            <option>Permanente</option>
-                                                                                            <option>Provisório</option>
-                                                                                        </select>
+                                                                                    <div class="col-md-3">
+                                                                                        <div class="form-group label-floating has-success">
+                                                                                            <label class="control-label">Tipo</label>
+                                                                                            <output class="form-control">Provisório</output>
+                                                                                        </div>
                                                                                     </div>    
                                                                                     <div class="col-md-3">
-                                                                                        <div class="form-group label-floating">
-                                                                                            <label class="exampleInput1">Tombo</label>
-                                                                                            <input type="text" class="form-control" id="exampleInput1">
+                                                                                        <div class="form-group label-floating has-success">
+                                                                                            <label class="control-label">Tombo</label>
+                                                                                            <output class="form-control"></output>
                                                                                         </div>
                                                                                     </div> 
                                                                                 </div>
                                                                                 <div class="row">
-                                                                                    <div class="form-group col-md-3">
-                                                                                        <label for="inputState">Quantidade</label>
-                                                                                        <select id="inputState" class="form-control">
-                                                                                            <option>01</option>
-                                                                                            <option>02</option>
-                                                                                            <option>03</option>
-                                                                                            <option>04</option>
-                                                                                            <option>05</option>
-                                                                                            <option>06</option>
-                                                                                            <option>07</option>
-                                                                                            <option>08</option>
-                                                                                            <option>09</option>
-                                                                                            <option>10</option>
-                                                                                            <option>11</option>
-                                                                                            <option>12</option>
-                                                                                        </select>
+                                                                                    <div class="col-md-3">
+                                                                                         <div class="form-group label-floating has-success">
+                                                                                            <label class="control-label">Quantidade</label>
+                                                                                            <output class="form-control">05</output>
+                                                                                        </div>
                                                                                     </div> 
+                                                                                    <div class="col-md-3">
+                                                                                         <div class="form-group label-floating has-success">
+                                                                                            <label class="control-label">Tipo</label>
+                                                                                            <output class="form-control">Caixa</output>
+                                                                                        </div>
+                                                                                    </div>           
                                                                                     <div class="col-md-6">
-                                                                                        <div class="form-group label-floating">
-                                                                                            <label class="exampleFormControlInput1">Local</label>
-                                                                                            <input type="email" class="form-control" id="exampleFormControlInput1">
+                                                                                         <div class="form-group label-floating has-success">
+                                                                                            <label class="control-label">Local</label>
+                                                                                            <output class="form-control">Central de Desenvolvimento</output>
                                                                                         </div>    
                                                                                     </div> 
-                                                                                    <div class="form-group col-md-3">
-                                                                                        <label for="inputState">Tipo</label>
-                                                                                        <select id="inputState" class="form-control">
-                                                                                            <option>Unidade</option>
-                                                                                            <option>Caixa</option>
-                                                                                            <option>Pacote</option>
-                                                                                        </select>
-                                                                                    </div>           
                                                                                 </div>                          
                                                                             </form>
                                                                         </div>    
@@ -367,11 +354,11 @@
                                         </div>  
                                     </div>
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                                       Novo Produto
                                     </button>
                                     <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <!--
@@ -456,19 +443,19 @@
                             </div>
                         </div>        
                         <div class="col-md-8">
-                            <div class="card">
+                            <div class="card text-center">
                                 <div class="card-header" data-background-color="purple">
                                     <h4 class="title">Produtos Permanentes</h4>
                                 </div>
                                 <div class="card-content table-responsive">
                                     <table class="table table-hover">
                                         <thead>
-                                            <th>Código</th>
-                                            <th>Produto</th>
-                                            <th>Tipo</th>
-                                            <th>Tombo</th>
-                                            <th>Quantidade</th>
-                                            <th></th>
+                                            <th class="text-center">Código</th>
+                                            <th class="text-center">Produto</th>
+                                            <th class="text-center">Tipo</th>
+                                            <th class="text-center">Tombo</th>
+                                            <th class="text-center">Quantidade</th>
+                                            <th class="text-center">Situação</th>
                                         </thead>
                                         <tbody>
                                             <tr>
@@ -477,6 +464,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -490,6 +478,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -503,6 +492,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -516,6 +506,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-danger h6">Sem Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -529,6 +520,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -542,6 +534,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-danger h6">Em Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -555,6 +548,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-primary h6">Em Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -568,6 +562,7 @@
                                                 <td>Permanente</td>
                                                 <td>B54-1245</td>
                                                 <td>01 UN</td>
+                                                <td class="text-dnager h6">Sem Estoque</td>
                                                 <td></td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" class="btn btn-success btn-round">
@@ -594,28 +589,26 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    Company
+                                    solicitações
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Portfolio
+                                    Relatórios
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Blog
+                                    Sobre
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Sair
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <p class="copyright pull-right">
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script>
-                        <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-                    </p>
                 </div>
             </footer>
         </div>
