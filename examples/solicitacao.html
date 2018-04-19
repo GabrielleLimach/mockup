@@ -147,7 +147,7 @@
             <div class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-10 col-md-offset-1">
                             <div class="card">
                                 <div class="card-header" data-background-color="purple">
                                     <h4 class="title">Fomulário de Solicitação</h4>
@@ -243,88 +243,70 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <button type="submit" class="btn btn-success pull-right">Aprovar Solicitação</button>
-                                        <button type="button" class="btn btn-secondary">Cancelar Solicitação</button>
-                                        <div class="clearfix"></div>
                                     </form>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card card-profile">
-                                <div class="card-avatar">
-                                    <a href="#pablo">
-                                        <img class="img" src="../assets/img/faces/marc.jpg" />
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <h4 class="card-title">Gabrielle Limach</h4>
-                                    <h6 class="category text-gray">Estagiária / CDES</h6>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="Pesquisar">
-                                        <span class="material-input"></span>
-                                        <span class="material-input"></span>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="card">
+                                    <div class="card-header" data-background-color="purple">
+                                        <h4 class="title">Lista de Produtos</h4>
                                     </div>
-                                    <a href="#pablo" class="btn btn-primary btn-round">Adicionar</a>
+                                    <div class="card-content table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <th>Código</th>
+                                                <th>Produto</th>
+                                                <th>Tipo</th>
+                                                <th>Tombo</th>
+                                                <th>Quantidade</th>
+                                                <th></th>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>123</td>
+                                                    <td>Folha Sulfite</td>
+                                                    <td>Provisório</td>
+                                                    <td></td>
+                                                    <td>01 PCT</td>
+                                                    <td></td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <span style="padding-left:10px"></span>
+                                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>465</td>
+                                                    <td>Mesa</td>
+                                                    <td>Permanente</td>
+                                                    <td>B54-1245</td>
+                                                    <td>01 UN</td>
+                                                    <td></td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <span style="padding-left:10px"></span>
+                                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button type="button" class="btn btn-success pull-right">Aprovar</button>
+                                        <button type="button" class="btn btn-danger pull-right" style="margin-right: 15px;"">Cancelar</button>
+                                        <div class="clearfix"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header" data-background-color="purple">
-                        <h4 class="title">Lista de Produtos</h4>
-                    </div>
-                    <div class="card-content table-responsive">
-                        <table class="table table-hover">
-                            <thead>
-                                <th>Código</th>
-                                <th>Produto</th>
-                                <th>Tipo</th>
-                                <th>Tombo</th>
-                                <th>Quantidade</th>
-                                <th></th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>123</td>
-                                    <td>Folha Sulfite</td>
-                                    <td>Provisório</td>
-                                    <td></td>
-                                    <td>01 PCT</td>
-                                    <td></td>
-                                    <td class="td-actions text-right">
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
-                                            <i class="material-icons">edit</i>
-                                        </button>
-                                        <span style="padding-left:10px"></span>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
-                                            <i class="material-icons">close</i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>465</td>
-                                    <td>Mesa</td>
-                                    <td>Permanente</td>
-                                    <td>B54-1245</td>
-                                    <td>01 UN</td>
-                                    <td></td>
-                                    <td class="td-actions text-right">
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-round">
-                                            <i class="material-icons">edit</i>
-                                        </button>
-                                        <span style="padding-left:10px"></span>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round">
-                                            <i class="material-icons">close</i>
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
